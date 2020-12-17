@@ -1,0 +1,23 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.text{
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+}
+
+.dropdown-item{
+  color: #fff!important;
+}
+
+.img-hover-zoom--zoom-n-rotate img {
+  transition: transform .5s ease-in-out;
+}
+
+/* The Transformation */
+.img-hover-zoom--zoom-n-rotate:hover img {
+  transform: scale(1) rotate(15deg);
+}

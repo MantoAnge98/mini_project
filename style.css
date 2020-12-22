@@ -1,23 +1,149 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  font-family: 'poppins';
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  background-color: #fff;
+
+}
+header{
+  color: rgb(112, 112, 112);
 }
 
+#navbarDropdownPortfolio{
+  color: black;
+}
+
+.position{
+   text-align: center;
+}
+
+.sect-text{
+  font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.blog{
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.col-4 img{
+  width: 6rem;
+}
+
+.d-block{
+  margin-top: 0.8rem;
+}
+
+.border-0{
+  padding: 0 16px;
+}
+
+.card-text{
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+p{
+  color: #77838f;
+  line-height: 1.7;
+}
+
+h2{
+  font-weight: 400!important;
+  margin-top: 7px;
+}
+
+
+h4, h5, h6{
+font-weight: 500!important;
+}
+
+h5{
+  font-size: 1.25rem;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+.text-header{
+  font-size: 1rem;
+}
+
+.button-top{
+  margin-top: 0.2rem;
+  padding: 0.6rem 1.6em;
+}
+
+.dropdown-menu, .dropdown-menu-right{
+  background-color: #f7e135!important;
+}
+
+.image img{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.media-body .h6 > a{
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.display-6{
+  font-weight: 500!important;
+  font-size: 35px;
+  color: #f7e135;
+}
+
+.page-item{
+  font-size: 0.6rem;
+  color: rgb(112, 112, 112);
+}
+
+.page-link{
+  border: none!important;
+}
+
+p small{
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 4px 15px;
+  border-radius: 2rem;
+}
+
+
+small:hover{
+  background-color: #f7e135;
+  cursor: pointer;
+  color: black;
+  font-weight: 400!important;
+}
+
+.h6{
+  margin-top: 8px;
+}
+
+.h6 > a:hover{
+  color: #f7e135;
+}
+
+li{
+  padding-left: 1rem;
+}
 .text{
   font-size: large;
   font-weight: 600;
   text-align: center;
 }
 
-.dropdown-item{
-  color: #fff!important;
-}
-
-.img-hover-zoom--zoom-n-rotate img {
-  transition: transform .5s ease-in-out;
-}
-
-/* The Transformation */
-.img-hover-zoom--zoom-n-rotate:hover img {
-  transform: scale(1) rotate(15deg);
+.logo_image{ 
+  height: 50px;
 }
